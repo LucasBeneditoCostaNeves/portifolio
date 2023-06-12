@@ -15,7 +15,12 @@ export const Header = () => {
           <a href="https://github.com/LucasBeneditoCostaNeves" target="_blank">
             <img src={gitHub} />
           </a>
-          <img src={linkedin} alt="" srcset="" />
+          <a
+            href="https://www.linkedin.com/in/lucas-benedito-costa-neves-6a0102246/"
+            target="_blank"
+          >
+            <img src={linkedin} alt="" srcset="" />
+          </a>
         </div>
         <h1>DEVELOPER</h1>
         <h2>

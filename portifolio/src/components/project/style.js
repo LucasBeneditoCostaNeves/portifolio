@@ -37,11 +37,22 @@ export const ProjectStyle = styled.div`
     transform: scale(1.1); /* Aumenta o tamanho em 20% */
     transition: transform 0.6s ease;
     position: none;
+    cursor: pointer;
   }
 
   @media (min-width: 590px) {
     .height306 {
       height: 306px;
     }
+  }
+
+  h1 {
+    display: flex;
+    margin: 0 auto;
+    width: max-content;
+    text-decoration: none;
+    color: var(--gray-1);
+    font-size: 20px;
+    font-weight: 600;
   }
 `;

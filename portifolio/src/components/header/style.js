@@ -34,8 +34,18 @@ export const HeaderStyle = styled.header`
     font-weight: 900;
   }
 
+  h1:hover {
+    transform: scale(1.02); /* Aumenta o tamanho em 20% */
+    transition: transform 0.6s ease;
+  }
+
   img {
     margin-left: 5px;
+  }
+
+  img:hover {
+    transform: scale(1.5); /* Aumenta o tamanho em 20% */
+    transition: transform 0.6s ease;
   }
 
   h2 {
